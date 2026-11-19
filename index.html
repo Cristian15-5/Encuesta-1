@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Encuesta - El Desafío</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="encabezado">
+            <h1>🏆 EL GRAN DESAFÍO</h1>
+            <p>¿QUÉ TANTO ME CONOCES?</p>
+            <span class="etiqueta">⚡ EDICIÓN ESPECIAL ⚡</span>
+        </div>
+
+        <div class="participante">
+            <h2>REGISTRO DEL JUGADOR</h2>
+
+            <label>Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+            <label>Parentesco:</label>
+            <input type="text" id="familiar" placeholder="¿Qué parentesco tienes conmigo?">
+        </div>
+
+        <form id="encuesta">
+
+            <div class="pregunta">
+                <h3>🔥 RETO 01</h3>
+                <p>¿Cuál es mi comida favorita?</p>
+
+                <label><input type="radio" name="p1" value="1"> Arroz con pollo</label>
+                <label><input type="radio" name="p1" value="2"> Hamburguesa</label>
+                <label><input type="radio" name="p1" value="3"> Salchipapa</label>
+            </div>
+
+            <div class="pregunta">
+                <h3>⚡ RETO 02</h3>
+                <p>¿Cuál es mi deporte favorito?</p>
+
+                <label><input type="radio" name="p2" value="1"> Baloncesto</label>
+                <label><input type="radio" name="p2" value="2"> Tennis</label>
+                <label><input type="radio" name="p2" value="3"> Fútbol</label>
+            </div>
+
+            <div class="pregunta">
+                <h3>🎯 RETO 03</h3>
+                <p>¿Cuál es mi color favorito?</p>
+
+                <label><input type="radio" name="p3" value="1"> Rojo</label>
+                <label><input type="radio" name="p3" value="2"> Azul</label>
+                <label><input type="radio" name="p3" value="3"> Verde</label>
+            </div>
+
+            <div class="pregunta">
+                <h3>🏎️ RETO 04</h3>
+                <p>¿Cuál es mi auto favorito?</p>
+
+                <label><input type="radio" name="p4" value="1"> Lamborghini</label>
+                <label><input type="radio" name="p4" value="2"> BMW</label>
+                <label><input type="radio" name="p4" value="3"> Tesla</label>
+            </div>
+
+            <div class="pregunta">
+                <h3>🎮 RETO 05</h3>
+                <p>¿Cuál es mi juego favorito?</p>
+
+                <label><input type="radio" name="p5" value="1"> Free Fire</label>
+                <label><input type="radio" name="p5" value="2"> Minecraft</label>
+                <label><input type="radio" name="p5" value="3"> FIFA</label>
+            </div>
+
+            <button type="submit">🏆 FINALIZAR COMPETENCIA</button>
+
+        </form>
+
+        <div id="resultado"></div>
+
+        <footer>
+            <p>⚡ GRACIAS POR PARTICIPAR ⚡</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
